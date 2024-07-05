@@ -53,7 +53,7 @@ const articles = [
 
 const ArticleSection = () => {
   return (
-    <section id="article-section" className="article-section">
+    <section id="article-section1" className="article-section">
       <div className="container">
         <h2>Artigos recomendados</h2>
         <div className="articles">
