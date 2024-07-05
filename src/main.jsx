@@ -1,6 +1,6 @@
 import React from "react";
-import ArticleSection from "../ArticleSection/ArticleSection";
-import ContactSection from "../ContactSection/ContactSection";
+import ArticleSection from "../src/components/ArticleSection/ArticleSection";
+import ContactSection from "../src/components/ContactSection/ContactSection";
 
 const Main = () => {
   return (

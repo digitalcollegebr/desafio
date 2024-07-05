@@ -63,7 +63,6 @@ const ArticleSection = () => {
               articleImg={article.img}
               title={article.title}
               description={article.description}
-              a={article.link}
             />
           ))}
         </div>
