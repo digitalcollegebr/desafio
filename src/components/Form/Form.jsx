@@ -18,6 +18,7 @@ const Form = () => {
         Assunto
       </label>
       <textarea
+        className="textarea"
         name="subject"
         id="subject"
         placeholder="Assunto da mensagem"
