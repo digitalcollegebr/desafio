@@ -86,7 +86,7 @@ header {
   .header-content {
    flex-direction: row-reverse;
    gap: 235px;
-   padding: 0em 4em 4em 4em;
+   padding: 0em 4em 0em 4em;
   }
   .header-image {
     margin-bottom: 0;
@@ -98,14 +98,14 @@ header {
     align-items: start;
   }
   .header-description h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 48px;
     text-align: left;
     margin-bottom: 2rem;
-    max-width: 581px;
+    max-width: 540px;
   }
   .header-description p {
-    font-size: 1.5rem;
+    font-size: 1.45rem;
     line-height: 36px;
     text-align: left;
     margin-bottom: 2rem;

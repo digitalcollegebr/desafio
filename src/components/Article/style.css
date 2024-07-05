@@ -11,12 +11,12 @@
 }
 
 .card-description {
-  padding: 1.5rem 1.125rem;
+  padding: 1.5rem 1rem;
 }
 
 .card-description h3 {
   font-weight: 600;
-  font-size: 1.125rem;
+  font-size: 125rem;
   line-height: 23.4px;
   color: var(--dark);
 
@@ -31,7 +31,7 @@
 
 .card-description p {
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: 0.585rem;
   line-height: 21px;
   color: var(--dark);
 }
@@ -41,12 +41,13 @@
     padding: 2rem 1.5rem;
   }
   .card-description h3 {
-    font-size: 1.25rem;
-    line-height: 26px; 
+    font-size: 1.1rem;
+    line-height: 26px;
   }
   .card-description p {
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1.0rem;
     line-height: 27px;
+    word-wrap: normal;
   }
 }
