@@ -1,0 +1,41 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form textarea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: var(--gray-10);
+
+  border-radius: 0.25rem;
+  border: 1px solid var(--gray-20);
+  outline: 0;
+  height: 9.375rem;
+
+  padding: 1rem 1.125rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-form textarea:focus {
+  border: 1px solid var(--brand-color);
+}
+
+.contact-form button {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-form textarea {
+    font-size: 1.125rem;
+    padding: 1.125rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contact-form {
+    max-width: 592px;
+    margin: 0 auto;
+  }
+}

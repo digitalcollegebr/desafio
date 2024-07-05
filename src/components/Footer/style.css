@@ -1,0 +1,30 @@
+footer {
+  padding: 2rem 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--dark);
+}
+
+footer a {
+  font-weight: 600;
+  color: var(--brand-color);
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  footer p {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  footer p {
+    font-size: 1rem;
+  }
+}
