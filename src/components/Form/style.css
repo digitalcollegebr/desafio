@@ -24,6 +24,7 @@
 
 .contact-form button {
   font-size: 1rem;
+  background-color: #846AFF;
 }
 
 @media screen and (min-width: 768px) {

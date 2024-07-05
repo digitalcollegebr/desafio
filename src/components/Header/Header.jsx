@@ -2,7 +2,7 @@ import React from "react";
 
 import "./style.css";
 
-import headerImg from "../../assets/images/image-1.webp";
+import headerImg from "../../assets/images/illustra.webp";
 
 
 const Header = () => {
@@ -15,11 +15,27 @@ const Header = () => {
         <div className="header-description">
           <h1>Encontre os <span>melhores artigos</span> de programação em um só lugar</h1>
           <p>Explore o topo da programação em um só lugar! Seu destino único para dicas e tendências atuais.</p>
-          <a href="#article" className="button">Buscar artigos</a>
+          <a href="#article" className="button" onClick={GetPosts()}>Buscar artigos</a>
         </div>
       </div>
     </header>
   );
 };
 
-export default Header;
+const GetPosts = () => {
+  fetch('https://jsonplaceholder.typicode.com/posts', {
+    method: 'POST',
+    body: JSON.stringify({
+      title: 'foo',
+      body: 'bar',
+      userId: 1,
+    }),
+    headers: {
+      'Content-type': 'application/json; charset=UTF-8',
+    },
+  })
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+}
+
+export default Header;GetPosts
