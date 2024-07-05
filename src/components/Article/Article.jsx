@@ -1,14 +1,15 @@
 import React from "react";
 
 import "./style.css";
+import { Link } from "react-router-dom";
 
 const Article = ({ articleImg, title, description }) => {
   return (
     <article id="article" className="card">
-      <img src={articleImg} alt={title} />
+      <Link to="/article1"><img src={articleImg} alt={title} /></Link>
       <div className="card-description">
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <h3><Link to="/article1">{title}</Link></h3>
+        <p><Link to="/article1">{description}</Link></p>
       </div>
     </article>
   );

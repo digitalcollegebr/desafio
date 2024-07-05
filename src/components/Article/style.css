@@ -51,3 +51,9 @@
     word-wrap: normal;
   }
 }
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
