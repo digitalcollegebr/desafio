@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import AllArticles from './components/AllArticles/AllArticles.jsx';
+import UniqueArticle from './components/UniqueArticle/UniqueArticle.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/all",
     Component: AllArticles
+  },
+  {
+    path: "/post/:id",
+    Component: UniqueArticle
   },
 ]);
 
