@@ -63,6 +63,7 @@ const ArticleSection = () => {
               articleImg={article.img}
               title={article.title}
               description={article.description}
+              path={index}
             />
           ))}
         </div>

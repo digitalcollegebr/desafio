@@ -16,6 +16,10 @@
   gap: 2rem;
 }
 
+.articles a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .article-section {
   padding: 5rem 0;

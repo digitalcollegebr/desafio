@@ -15,6 +15,7 @@ header {
 
 .header-image img {
   width: 207px;
+  height: 240px;
 }
 
 .header-description {
@@ -59,6 +60,7 @@ header {
 @media screen and (min-width: 768px) {
   .header-image img {
     width: 330px;
+    height: 379.5px;
   }
   .header-description h1 {
     font-size: 2rem;
