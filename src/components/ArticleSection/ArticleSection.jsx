@@ -51,6 +51,7 @@ const articles = [
   },
 ];
 
+
 const ArticleSection = () => {
   return (
     <section id="article-section" className="article-section">
