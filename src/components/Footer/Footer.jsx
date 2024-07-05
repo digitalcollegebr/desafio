@@ -4,8 +4,8 @@ import "./style.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="container">
+    <Footer>
+      <div className="container-footer">
         <p>
           Desafio do{" "}
           <a href="https://github.com/iuricode" target="_blank">
@@ -18,7 +18,7 @@ const Footer = () => {
           .
         </p>
       </div>
-    </footer>
+    </Footer>
   );
 };
 
