@@ -4,6 +4,7 @@ import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
 
 import "./style.css";
+import { RouterProvider } from "react-router-dom";
 
 const App = () => {
   return (
