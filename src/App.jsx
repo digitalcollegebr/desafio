@@ -4,6 +4,7 @@ import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
 
 import "./style.css";
+import Article from "./components/Article/Article";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <Main />
       <Footer />
+      <Article />
     </>
   );
 };
