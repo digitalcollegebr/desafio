@@ -4,9 +4,9 @@ header {
 }
 
 .header-content {
- display: flex;
- flex-direction: column;
- align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-image {
@@ -21,6 +21,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .header-description h1 {
@@ -35,7 +36,7 @@ header {
 }
 
 .header-description span {
-  color: var(--brand-color);
+  color: #846AFF;
 }
 
 .header-description p {
@@ -53,6 +54,7 @@ header {
   font-size: 0.875rem;
   text-align: center;
   text-decoration: none;
+  background-color: #846AFF;
   width: 100%;
 }
 
@@ -60,19 +62,26 @@ header {
   .header-image img {
     width: 330px;
   }
+
   .header-description h1 {
     font-size: 2rem;
     line-height: 38.4px;
     max-width: 465px;
-  } 
+  }
+
   .header-description p {
     font-size: 1.25rem;
     line-height: 30px;
     max-width: 465px;
   }
+
   .header-description a {
     font-size: 1.125rem;
     width: 214px;
+  }
+
+  .button {
+    background-color: #846AFF;
   }
 }
 
@@ -80,19 +89,24 @@ header {
   header {
     padding: 3.125rem 0;
   }
+
   .header-content {
-   flex-direction: row-reverse;
-   gap: 235px;
+    flex-direction: row-reverse;
+    gap: 235px;
   }
+
   .header-image {
     margin-bottom: 0;
   }
+
   .header-image img {
     width: 400px;
   }
+
   .header-description {
     align-items: start;
   }
+
   .header-description h1 {
     font-size: 2.5rem;
     line-height: 48px;
@@ -100,6 +114,7 @@ header {
     margin-bottom: 2rem;
     max-width: 581px;
   }
+
   .header-description p {
     font-size: 1.5rem;
     line-height: 36px;
@@ -107,6 +122,7 @@ header {
     margin-bottom: 2rem;
     max-width: 550px;
   }
+
   .header-description a {
     font-size: 1.125rem;
     width: 13.375rem;
