@@ -86,7 +86,7 @@ header {
   .header-content {
    flex-direction: row-reverse;
    gap: 235px;
-   padding: 4em;
+   padding: 0em 4em 4em 4em;
   }
   .header-image {
     margin-bottom: 0;
